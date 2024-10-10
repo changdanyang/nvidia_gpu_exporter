@@ -23,7 +23,7 @@ jobs:
       - name: Login to DockerHub
         uses: docker/login-action@v3.3.0
         with:
-          username: utkuozdemir
+          username: dchang318
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: GoReleaser
         uses: goreleaser/goreleaser-action@v6.0.0
